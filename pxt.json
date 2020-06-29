@@ -1,10 +1,8 @@
 {
-    "name": "Extention",
-    "description": "",
+    "name": "Multiplexer",
+    "description": "5 to 16 Multiplexer extention for Teknologiskolens Summercamp",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.7.3"
     },
     "files": [
         "README.md",
