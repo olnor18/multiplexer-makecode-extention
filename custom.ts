@@ -56,7 +56,7 @@ namespace teknologiskolen {
     //% block="Create Multiplexer with SIG:$signal and S0:$s0, S1:$s1, S2:$s2, S3:$s3"
     //% blockSetVariable=multiplexer
     //% inlineInputMode=inline
-    export function CreateMultiplexer(signal: DigitalPin, s0: DigitalPin, s1: DigitalPin, s2: DigitalPin, s3: DigitalPin): Multiplexer {
+    export function createMultiplexer(signal: DigitalPin, s0: DigitalPin, s1: DigitalPin, s2: DigitalPin, s3: DigitalPin): Multiplexer {
         let multiplexer = new Multiplexer();
         multiplexer.signalPin = signal;
         multiplexer.sPins = [];
