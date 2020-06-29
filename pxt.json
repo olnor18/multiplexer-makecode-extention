@@ -2,7 +2,7 @@
     "name": "Multiplexer",
     "description": "5 to 16 Multiplexer extention for Teknologiskolens Summercamp",
     "dependencies": {
-        "core": "*",
+        "core": "*"
     },
     "files": [
         "README.md",
