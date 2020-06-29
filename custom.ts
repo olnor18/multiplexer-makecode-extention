@@ -2,7 +2,7 @@
 /**
  * Teknologiskole blocks
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#D9534F icon=""
 namespace teknologiskolen {
     /**
      * A Multiplexer
