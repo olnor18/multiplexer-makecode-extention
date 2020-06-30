@@ -40,7 +40,7 @@ namespace teknologiskolen {
                 if (bitString.charAt(i) == "1") {
                     pins.digitalWritePin(this.sPins[3-i], 1);
                 } else {
-                    pins.digitalWritePin(this.sPins[i], 0);
+                    pins.digitalWritePin(this.sPins[3-i], 0);
                 } 
             }
         }
