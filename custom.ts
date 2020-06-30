@@ -36,8 +36,7 @@ namespace teknologiskolen {
             }
             let bitString = "0000" + bits;
             bitString = bitString.substr(bitString.length-4);
-            bitString = bitString.split("").reverse().join("");
-            for (let i = 0; i < 4; i++){
+            for (let i = 3; i >= 0; i--){
                 if (bitString.charAt(i) == "1") {
                     pins.digitalWritePin(this.sPins[i], 1);
                 } else {
